@@ -1,0 +1,45 @@
+baseurl = "/"
+title = "594R Website"
+copyright = "Copyright (c) 2019, all rights reserved."
+languageCode = "en-US"
+canonifyurls = true
+paginate = 3
+theme = "hugo-dusk"
+enableRobotsTXT = true
+
+googleAnalytics = ""
+disqusShortname = ""
+
+SectionPagesMenu = "main"
+
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[taxonomies]
+  category = "categories"
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
+[author]
+  name = "Rohit Khattar"
+
+[params.meta]
+  keywords = ""
+  description = "Class blog."
+
+[params]
+  email = "rohitkhattar11@gmail.com"
+  github = "rfun"
+  #gitlab = "gitlab id"
+  #twitter = "twitter id"
+  #linkedin = "linkedin id"
+  theme_colors = "default-dark"
